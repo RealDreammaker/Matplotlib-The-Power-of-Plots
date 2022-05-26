@@ -18,9 +18,7 @@ Merge DataFrames, remove duplicate data and use cleaned dataframe for futher ana
 </br>
 <img src="images\pie_chart.png" width="40%" height="40%">
 </br>
-
 ### Summary Statistics
-
 1.	From the summary statistic table below, the average tumour volume appeared smallest in mouse treated with Ramicane, Capomulin, Propriva, Ceftamin and Infubinol. This proves the effectiveness of these drugs in reducing tumour volume in mouse.
 <table class="dataframe" border="1">
   <thead>
@@ -105,22 +103,20 @@ Merge DataFrames, remove duplicate data and use cleaned dataframe for futher ana
     </tr>
   </tbody>
 </table>
-
+</br>
 2.	Ramicane on average reduces tumour volume more than Capomulin. However, from the bar chart Timepoints by drug regimen below, it shows that mouse is less likely to die in drug regime Capomulin compared to Ramicane (230 versus 228 timepoints).
 </br>
-<img src="images\bar_chart.png" width="80%" height="80%">
+<img src="images\bar_chart.png" width="40%" height="40%">
 </br>
 Therefore, it is safest to treat tumour with Capomulin.
 </br>
-<img src="images\line_chart.png" width="80%" height="80%">
+<img src="images\line_chart.png" width="40%" height="40%">
 </br>
-
-
 3.	The average tumour volume in mouse strongly and positively corelates to the mouse weight (r = 0.84) and it can be estimated based on a linear equation: y = 0.95x + 21.55 (x: mouse weight, y: average tumour volume)
 </br>
-<img src="images\linear_regression.png" width="80%" height="80%">
+<img src="images\linear_regression.png" width="40%" height="40%">
 </br>
 4.	From whisker box, we found only one outliner from Infubinol regimen, this means that the above statistical analysis is not negatively bias by outliners
 </br>
-<img src="images\box_plot.png" width="80%" height="80%">
+<img src="images\box_plot.png" width="40%" height="40%">
 </br>
